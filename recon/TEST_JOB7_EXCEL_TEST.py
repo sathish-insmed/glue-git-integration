@@ -11,7 +11,6 @@ import pandas as pd
 from subprocess import call 
 import boto3
 from io import BytesIO
-#sathish
 
 args = getResolvedOptions(sys.argv, ['JOB_NAME'])
 
