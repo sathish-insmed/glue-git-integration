@@ -36,7 +36,7 @@
   "sourceControlDetails" : {
     "provider" : "GITHUB",
     "repository" : "glue-git-integration",
-    "branch" : "feature_sathish",
+    "branch" : "dev",
     "folder" : "recon"
   }
 }
