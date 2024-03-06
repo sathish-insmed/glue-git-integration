@@ -25,7 +25,7 @@ job.init(args['JOB_NAME'], args)
 s3_eu= "s3://dev-globalreporting/OPERATIONS/ORACLE_ERP/TRANSACTION_DETAILS_REPORT/EU/TEST/"
 
 s3_eu_df = spark.read.format("csv").option("delimiter",",").option("inferSchema", "true").option("header","true").option("multiLine", "true").option("quote", "\"").option("escape", "\"").load(s3_eu + "*.csv")
-
+#test2
 
 #converting all df into table 
 #s3_cm_df.createOrReplaceTempView("erp_table1")
